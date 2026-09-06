@@ -1,0 +1,17 @@
+# local artefacts
+__pycache__/
+*.pyc
+logs_*.txt
+logs_power.csv
+*.log
+scratch/
+
+# manuscript: released separately on acceptance
+paper/
+
+# paper-editing utilities, not part of the measurement
+scripts/move_dose_figure.py
+scripts/move_mech_table.py
+scripts/shorten_captions.py
+scripts/check_fontsize.py
+scripts/patch_env4_parse.py

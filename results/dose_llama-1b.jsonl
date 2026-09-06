@@ -1,0 +1,800 @@
+{"model": "llama-1b", "seed": 10000, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-5887\")\nCALL read_account(account_id=\"AC-1413\")\nCALL read"}
+{"model": "llama-1b", "seed": 10000, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-1413\", 166.33)"}
+{"model": "llama-1b", "seed": 10000, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3877\")"}
+{"model": "llama-1b", "seed": 10000, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3877\")"}
+{"model": "llama-1b", "seed": 10000, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1322\")"}
+{"model": "llama-1b", "seed": 10000, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10000, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10000, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10000, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10000, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10000, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(9185.89, 0.045)"}
+{"model": "llama-1b", "seed": 10000, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(637.68, 0.045)"}
+{"model": "llama-1b", "seed": 10000, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(7800.46, 0.021)"}
+{"model": "llama-1b", "seed": 10000, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(9125.54, 0.045)"}
+{"model": "llama-1b", "seed": 10000, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(15879.14, 0.021)"}
+{"model": "llama-1b", "seed": 10000, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5887\", 413.37)"}
+{"model": "llama-1b", "seed": 10000, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5274\", 206.69)"}
+{"model": "llama-1b", "seed": 10000, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5274\", 340.19)"}
+{"model": "llama-1b", "seed": 10000, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3877\", 410.65)"}
+{"model": "llama-1b", "seed": 10000, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7149\", 1663.33)"}
+{"model": "llama-1b", "seed": 10001, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-6837\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10001, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-7897\", 159.65)"}
+{"model": "llama-1b", "seed": 10001, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7165\")"}
+{"model": "llama-1b", "seed": 10001, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7165\")"}
+{"model": "llama-1b", "seed": 10001, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6837\")"}
+{"model": "llama-1b", "seed": 10001, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10001, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10001, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10001, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "llama-1b", "seed": 10001, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10001, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1063.04, 0.045)"}
+{"model": "llama-1b", "seed": 10001, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(57292.5, 0.045)"}
+{"model": "llama-1b", "seed": 10001, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(1704.96, 0.021)"}
+{"model": "llama-1b", "seed": 10001, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(49889.9, 0.032)"}
+{"model": "llama-1b", "seed": 10001, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(34051.5, 0.021)"}
+{"model": "llama-1b", "seed": 10001, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6837\", 47.84)"}
+{"model": "llama-1b", "seed": 10001, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5397\", 257.82)"}
+{"model": "llama-1b", "seed": 10001, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1346\", 35.8)"}
+{"model": "llama-1b", "seed": 10001, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7165\", 159.65)"}
+{"model": "llama-1b", "seed": 10001, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4913\", 71.52)"}
+{"model": "llama-1b", "seed": 10002, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-7388\")\nCALL read_account(account_id=\"AC-6138\")\nCALL read"}
+{"model": "llama-1b", "seed": 10002, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-5013\", 13.19)"}
+{"model": "llama-1b", "seed": 10002, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6721\")"}
+{"model": "llama-1b", "seed": 10002, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5128\")"}
+{"model": "llama-1b", "seed": 10002, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7388\")"}
+{"model": "llama-1b", "seed": 10002, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10002, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10002, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10002, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "llama-1b", "seed": 10002, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10002, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(2543.58, 0.045)"}
+{"model": "llama-1b", "seed": 10002, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(627.86, 0.021)"}
+{"model": "llama-1b", "seed": 10002, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(3693.22, 0.032)"}
+{"model": "llama-1b", "seed": 10002, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(6229.52, 0.014)"}
+{"model": "llama-1b", "seed": 10002, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(522.91, 0.045)"}
+{"model": "llama-1b", "seed": 10002, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7388\", 114.46)"}
+{"model": "llama-1b", "seed": 10002, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5013\", 13.19)"}
+{"model": "llama-1b", "seed": 10002, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6721\", 11.82)"}
+{"model": "llama-1b", "seed": 10002, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6721\", 87.21)"}
+{"model": "llama-1b", "seed": 10002, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5128\", 23.53)"}
+{"model": "llama-1b", "seed": 10003, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-4321\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10003, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6088\")"}
+{"model": "llama-1b", "seed": 10003, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6088\")"}
+{"model": "llama-1b", "seed": 10003, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6013\")"}
+{"model": "llama-1b", "seed": 10003, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6088\")"}
+{"model": "llama-1b", "seed": 10003, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10003, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10003, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10003, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10003, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10003, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(544.27, 0.032)"}
+{"model": "llama-1b", "seed": 10003, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(4077.75, 0.014)"}
+{"model": "llama-1b", "seed": 10003, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(48093.2, 0.014)"}
+{"model": "llama-1b", "seed": 10003, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(56937.7, 0.045)"}
+{"model": "llama-1b", "seed": 10003, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(93131.2, 0.045)"}
+{"model": "llama-1b", "seed": 10003, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4321\", 17.42)"}
+{"model": "llama-1b", "seed": 10003, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5295\", 57.09)"}
+{"model": "llama-1b", "seed": 10003, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5295\", 114.18)"}
+{"model": "llama-1b", "seed": 10003, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6013\", 25.62)"}
+{"model": "llama-1b", "seed": 10003, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6088\", 419.09)"}
+{"model": "llama-1b", "seed": 10004, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-8924\")\nCALL read_account(account_id=\"AC-9674\")\nCALL read"}
+{"model": "llama-1b", "seed": 10004, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-1607\", 42.62)"}
+{"model": "llama-1b", "seed": 10004, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1607\")"}
+{"model": "llama-1b", "seed": 10004, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3879\")"}
+{"model": "llama-1b", "seed": 10004, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6903\")"}
+{"model": "llama-1b", "seed": 10004, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10004, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10004, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10004, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10004, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10004, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(6260.25, 0.045)"}
+{"model": "llama-1b", "seed": 10004, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(3044.42, 0.014)"}
+{"model": "llama-1b", "seed": 10004, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(5365.99, 0.032)"}
+{"model": "llama-1b", "seed": 10004, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(9192.08, 0.045)"}
+{"model": "llama-1b", "seed": 10004, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(330.068, 0.032)"}
+{"model": "llama-1b", "seed": 10004, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8924\", 281.71)"}
+{"model": "llama-1b", "seed": 10004, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1607\", 21.98)"}
+{"model": "llama-1b", "seed": 10004, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1607\", 171.71)"}
+{"model": "llama-1b", "seed": 10004, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3879\", 413.64)"}
+{"model": "llama-1b", "seed": 10004, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6903\", 105.82)"}
+{"model": "llama-1b", "seed": 10005, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-9723\")\nCALL read_account(account_id=\"AC-5499\")\nCALL read"}
+{"model": "llama-1b", "seed": 10005, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-5499\", 138.3)"}
+{"model": "llama-1b", "seed": 10005, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6932\")"}
+{"model": "llama-1b", "seed": 10005, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5499\")"}
+{"model": "llama-1b", "seed": 10005, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9723\")"}
+{"model": "llama-1b", "seed": 10005, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10005, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10005, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10005, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "llama-1b", "seed": 10005, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10005, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(6494.17, 0.045)"}
+{"model": "llama-1b", "seed": 10005, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(4741.06, 0.045)"}
+{"model": "llama-1b", "seed": 10005, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(5108208.28, 0.021)"}
+{"model": "llama-1b", "seed": 10005, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(745330.9, 0.014)"}
+{"model": "llama-1b", "seed": 10005, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(120077.7, 0.021)"}
+{"model": "llama-1b", "seed": 10005, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9723\", 292.24)"}
+{"model": "llama-1b", "seed": 10005, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5499\", 2133.5)"}
+{"model": "llama-1b", "seed": 10005, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6932\", 27.3)"}
+{"model": "llama-1b", "seed": 10005, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8225\", 104.36)"}
+{"model": "llama-1b", "seed": 10005, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3307\", 25.22)"}
+{"model": "llama-1b", "seed": 10006, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-4902\")\nCALL get_rate(tier=\"premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10006, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-5375\", 62.94)"}
+{"model": "llama-1b", "seed": 10006, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5375\")"}
+{"model": "llama-1b", "seed": 10006, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3058\")"}
+{"model": "llama-1b", "seed": 10006, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4466\")"}
+{"model": "llama-1b", "seed": 10006, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10006, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10006, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10006, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10006, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10006, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1002.48, 0.032)"}
+{"model": "llama-1b", "seed": 10006, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(1398.71, 0.045)"}
+{"model": "llama-1b", "seed": 10006, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(4202.54, 0.014)"}
+{"model": "llama-1b", "seed": 10006, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(3193.31, 0.021)"}
+{"model": "llama-1b", "seed": 10006, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(8991.9, 0.045)"}
+{"model": "llama-1b", "seed": 10006, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4902\", 32.08)"}
+{"model": "llama-1b", "seed": 10006, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5375\", 64.94)"}
+{"model": "llama-1b", "seed": 10006, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5375\", 31.47)"}
+{"model": "llama-1b", "seed": 10006, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3058\", 173.19)"}
+{"model": "llama-1b", "seed": 10006, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1428\", 404.64)"}
+{"model": "llama-1b", "seed": 10007, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-5203\")\nCALL get_rate(tier=\"premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10007, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-9906\", 28.6)"}
+{"model": "llama-1b", "seed": 10007, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1372\")"}
+{"model": "llama-1b", "seed": 10007, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1372\")"}
+{"model": "llama-1b", "seed": 10007, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1372\")"}
+{"model": "llama-1b", "seed": 10007, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10007, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10007, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10007, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10007, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10007, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7354.53, 0.032)"}
+{"model": "llama-1b", "seed": 10007, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(2043.02, 0.014)"}
+{"model": "llama-1b", "seed": 10007, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(4447.48, 0.032)"}
+{"model": "llama-1b", "seed": 10007, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(2671.19, 0.045)"}
+{"model": "llama-1b", "seed": 10007, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(3800.19, 0.045)"}
+{"model": "llama-1b", "seed": 10007, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5203\", 235.34)"}
+{"model": "llama-1b", "seed": 10007, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9906\", 28.6)"}
+{"model": "llama-1b", "seed": 10007, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5622\", 142.32)"}
+{"model": "llama-1b", "seed": 10007, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4565\", 240.15)"}
+{"model": "llama-1b", "seed": 10007, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1372\", 161.34)"}
+{"model": "llama-1b", "seed": 10008, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-3372\")\nCALL get_rate(tier=\"tier1\")\nCALL compute(balance=read"}
+{"model": "llama-1b", "seed": 10008, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-5864\", 179.82)"}
+{"model": "llama-1b", "seed": 10008, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3920\")"}
+{"model": "llama-1b", "seed": 10008, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8684\")"}
+{"model": "llama-1b", "seed": 10008, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8684\")"}
+{"model": "llama-1b", "seed": 10008, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10008, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10008, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10008, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10008, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10008, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8870.0, 0.014)"}
+{"model": "llama-1b", "seed": 10008, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(1111.0, 0.045)"}
+{"model": "llama-1b", "seed": 10008, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(3165.49, 0.014)"}
+{"model": "llama-1b", "seed": 10008, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(2398.21, 0.045)"}
+{"model": "llama-1b", "seed": 10008, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(287640.4, 0.021)"}
+{"model": "llama-1b", "seed": 10008, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3372\", 124.18)"}
+{"model": "llama-1b", "seed": 10008, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5864\", 151.48)"}
+{"model": "llama-1b", "seed": 10008, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3920\", 44.32)"}
+{"model": "llama-1b", "seed": 10008, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1708\", 269.2)"}
+{"model": "llama-1b", "seed": 10008, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8684\", 60.96)"}
+{"model": "llama-1b", "seed": 10009, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-6222\")\nString balance = read_account(account_id=\"AC-6222\")."}
+{"model": "llama-1b", "seed": 10009, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-2733\", 76.47)"}
+{"model": "llama-1b", "seed": 10009, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1076\")"}
+{"model": "llama-1b", "seed": 10009, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1076\")"}
+{"model": "llama-1b", "seed": 10009, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2733\")"}
+{"model": "llama-1b", "seed": 10009, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10009, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10009, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10009, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10009, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10009, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(2379.25, 0.045)"}
+{"model": "llama-1b", "seed": 10009, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(61428.22, 0.014)"}
+{"model": "llama-1b", "seed": 10009, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(89978.85, 0.014)"}
+{"model": "llama-1b", "seed": 10009, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(3116.77, 0.032)"}
+{"model": "llama-1b", "seed": 10009, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(54624.9, 0.014)"}
+{"model": "llama-1b", "seed": 10009, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6222\", 107.07)"}
+{"model": "llama-1b", "seed": 10009, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7669\", 86.0)"}
+{"model": "llama-1b", "seed": 10009, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1076\", 125.97)"}
+{"model": "llama-1b", "seed": 10009, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1076\", 99.74)"}
+{"model": "llama-1b", "seed": 10009, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5492\", 76.47)"}
+{"model": "llama-1b", "seed": 10010, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-5539\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10010, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-5527\", 76.69)"}
+{"model": "llama-1b", "seed": 10010, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5527\")"}
+{"model": "llama-1b", "seed": 10010, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5527\")"}
+{"model": "llama-1b", "seed": 10010, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5527\")"}
+{"model": "llama-1b", "seed": 10010, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10010, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10010, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10010, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10010, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10010, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(728.28, 0.021)"}
+{"model": "llama-1b", "seed": 10010, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(2396.42, 0.032)"}
+{"model": "llama-1b", "seed": 10010, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(720.53, 0.014)"}
+{"model": "llama-1b", "seed": 10010, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(8105.27, 0.014)"}
+{"model": "llama-1b", "seed": 10010, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(71563.84, 0.032)"}
+{"model": "llama-1b", "seed": 10010, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5539\", 15.29)"}
+{"model": "llama-1b", "seed": 10010, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1895\", 76.69)"}
+{"model": "llama-1b", "seed": 10010, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1895\", 10.09)"}
+{"model": "llama-1b", "seed": 10010, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5527\", 113.47)"}
+{"model": "llama-1b", "seed": 10010, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5527\", 229.0)"}
+{"model": "llama-1b", "seed": 10011, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-3437\")\nCALL read_account(account_id=\"AC-6187\")\nCALL read"}
+{"model": "llama-1b", "seed": 10011, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-6187\", 59.45)"}
+{"model": "llama-1b", "seed": 10011, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3419\")"}
+{"model": "llama-1b", "seed": 10011, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3419\")"}
+{"model": "llama-1b", "seed": 10011, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3419\")"}
+{"model": "llama-1b", "seed": 10011, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10011, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10011, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10011, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10011, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10011, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(5478.57, 0.021)"}
+{"model": "llama-1b", "seed": 10011, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(3744.8, 0.032)"}
+{"model": "llama-1b", "seed": 10011, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(2739.28, 0.021)"}
+{"model": "llama-1b", "seed": 10011, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(424667.6, 0.014)"}
+{"model": "llama-1b", "seed": 10011, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(537112.8, 0.021)"}
+{"model": "llama-1b", "seed": 10011, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3437\", 115.05)"}
+{"model": "llama-1b", "seed": 10011, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7899\", 230.1)"}
+{"model": "llama-1b", "seed": 10011, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7899\", 72.83)"}
+{"model": "llama-1b", "seed": 10011, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8414\", 59.45)"}
+{"model": "llama-1b", "seed": 10011, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6916\", 112.79)"}
+{"model": "llama-1b", "seed": 10012, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-8457\")\nCALL read_account(account_id=\"AC-2281\")\nCALL read"}
+{"model": "llama-1b", "seed": 10012, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-2281\", 49.18)"}
+{"model": "llama-1b", "seed": 10012, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4582\")"}
+{"model": "llama-1b", "seed": 10012, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4582\")"}
+{"model": "llama-1b", "seed": 10012, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4582\")"}
+{"model": "llama-1b", "seed": 10012, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10012, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10012, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10012, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10012, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10012, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(3943.65, 0.045)"}
+{"model": "llama-1b", "seed": 10012, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(5533.58, 0.045)"}
+{"model": "llama-1b", "seed": 10012, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(3563.05, 0.032)"}
+{"model": "llama-1b", "seed": 10012, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(35131.1, 0.014)"}
+{"model": "llama-1b", "seed": 10012, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(1732.71, 0.032)"}
+{"model": "llama-1b", "seed": 10012, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8457\", 177.46)"}
+{"model": "llama-1b", "seed": 10012, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2281\", 88.73)"}
+{"model": "llama-1b", "seed": 10012, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2447\", 114.02)"}
+{"model": "llama-1b", "seed": 10012, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6210\", 49.18)"}
+{"model": "llama-1b", "seed": 10012, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4582\", 17.45)"}
+{"model": "llama-1b", "seed": 10013, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-6821\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10013, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-4493\", 140.75)"}
+{"model": "llama-1b", "seed": 10013, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6300\")"}
+{"model": "llama-1b", "seed": 10013, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7034\")"}
+{"model": "llama-1b", "seed": 10013, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6821\")"}
+{"model": "llama-1b", "seed": 10013, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10013, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10013, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10013, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10013, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10013, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(4943.52, 0.014)"}
+{"model": "llama-1b", "seed": 10013, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(670244.8, 0.021)"}
+{"model": "llama-1b", "seed": 10013, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(6210737.9, 0.014)"}
+{"model": "llama-1b", "seed": 10013, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(32491.11, 0.032)"}
+{"model": "llama-1b", "seed": 10013, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(2081.94, 0.045)"}
+{"model": "llama-1b", "seed": 10013, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6821\", 69.21)"}
+{"model": "llama-1b", "seed": 10013, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7498\", 140.75)"}
+{"model": "llama-1b", "seed": 10013, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7498\", 869.95)"}
+{"model": "llama-1b", "seed": 10013, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7034\", 103.97)"}
+{"model": "llama-1b", "seed": 10013, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5334\", 187.35)"}
+{"model": "llama-1b", "seed": 10014, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-7881\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10014, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-4804\", 229.79)"}
+{"model": "llama-1b", "seed": 10014, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7851\")"}
+{"model": "llama-1b", "seed": 10014, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7851\")"}
+{"model": "llama-1b", "seed": 10014, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7881\")"}
+{"model": "llama-1b", "seed": 10014, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10014, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10014, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10014, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10014, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10014, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(2424.21, 0.021)"}
+{"model": "llama-1b", "seed": 10014, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(4194.9, 0.045)"}
+{"model": "llama-1b", "seed": 10014, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(2671.51, 0.032)"}
+{"model": "llama-1b", "seed": 10014, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(7180.93, 0.032)"}
+{"model": "llama-1b", "seed": 10014, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(781114.3, 0.032)"}
+{"model": "llama-1b", "seed": 10014, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7881\", 50.91)"}
+{"model": "llama-1b", "seed": 10014, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7851\", 188.77)"}
+{"model": "llama-1b", "seed": 10014, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7851\", 267.22)"}
+{"model": "llama-1b", "seed": 10014, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6439\", 229.79)"}
+{"model": "llama-1b", "seed": 10014, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6451\", 2499.7)"}
+{"model": "llama-1b", "seed": 10015, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-3137\")\nCALL read_account(account_id=\"AC-5881\")\nCALL read"}
+{"model": "llama-1b", "seed": 10015, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-5881\", 43.49)"}
+{"model": "llama-1b", "seed": 10015, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2698\")"}
+{"model": "llama-1b", "seed": 10015, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2698\")"}
+{"model": "llama-1b", "seed": 10015, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1040\")"}
+{"model": "llama-1b", "seed": 10015, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10015, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10015, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10015, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10015, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10015, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7907.1, 0.014)"}
+{"model": "llama-1b", "seed": 10015, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(1703.52, 0.032)"}
+{"model": "llama-1b", "seed": 10015, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(3641.9, 0.045)"}
+{"model": "llama-1b", "seed": 10015, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(3953.55, 0.014)"}
+{"model": "llama-1b", "seed": 10015, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(15491.4, 0.032)"}
+{"model": "llama-1b", "seed": 10015, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3137\", 110.7)"}
+{"model": "llama-1b", "seed": 10015, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5881\", 54.51)"}
+{"model": "llama-1b", "seed": 10015, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2698\", 109.02)"}
+{"model": "llama-1b", "seed": 10015, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2698\", 59.33)"}
+{"model": "llama-1b", "seed": 10015, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3296\", 109.02)"}
+{"model": "llama-1b", "seed": 10016, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-8464\")\nCALL read_account(account_id=\"AC-3873\")\nCALL read"}
+{"model": "llama-1b", "seed": 10016, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-3873\", 0.021)"}
+{"model": "llama-1b", "seed": 10016, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3873\")"}
+{"model": "llama-1b", "seed": 10016, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3053\")"}
+{"model": "llama-1b", "seed": 10016, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9709\")"}
+{"model": "llama-1b", "seed": 10016, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10016, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10016, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10016, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10016, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10016, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(3519.26, 0.045)"}
+{"model": "llama-1b", "seed": 10016, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(6567.08, 0.021)"}
+{"model": "llama-1b", "seed": 10016, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(1759.63, 0.045)"}
+{"model": "llama-1b", "seed": 10016, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(11537.12, 0.045)"}
+{"model": "llama-1b", "seed": 10016, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(13134.16, 0.021)"}
+{"model": "llama-1b", "seed": 10016, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8464\", 158.37)"}
+{"model": "llama-1b", "seed": 10016, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3053\", 316.74)"}
+{"model": "llama-1b", "seed": 10016, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3053\", 259.59)"}
+{"model": "llama-1b", "seed": 10016, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4634\", 283.07)"}
+{"model": "llama-1b", "seed": 10016, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4634\", 102.18)"}
+{"model": "llama-1b", "seed": 10017, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-7368\")\nCALL read_account(account_id=\"AC-3674\")\nCALL read"}
+{"model": "llama-1b", "seed": 10017, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-3674\", 149.1)"}
+{"model": "llama-1b", "seed": 10017, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3772\")"}
+{"model": "llama-1b", "seed": 10017, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4284\")"}
+{"model": "llama-1b", "seed": 10017, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3674\")"}
+{"model": "llama-1b", "seed": 10017, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10017, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10017, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10017, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10017, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10017, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(4343.47, 0.021)"}
+{"model": "llama-1b", "seed": 10017, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(5237.67, 0.045)"}
+{"model": "llama-1b", "seed": 10017, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(5948.07, 0.032)"}
+{"model": "llama-1b", "seed": 10017, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(4659.53, 0.032)"}
+{"model": "llama-1b", "seed": 10017, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(4730.04, 0.032)"}
+{"model": "llama-1b", "seed": 10017, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7368\", 91.21)"}
+{"model": "llama-1b", "seed": 10017, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3772\", 235.7)"}
+{"model": "llama-1b", "seed": 10017, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8995\", 190.34)"}
+{"model": "llama-1b", "seed": 10017, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4284\", 149.1)"}
+{"model": "llama-1b", "seed": 10017, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1489\", 151.36)"}
+{"model": "llama-1b", "seed": 10018, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-9611\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10018, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-7054\", 55.47)"}
+{"model": "llama-1b", "seed": 10018, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7054\")"}
+{"model": "llama-1b", "seed": 10018, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6279\")"}
+{"model": "llama-1b", "seed": 10018, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7610\")"}
+{"model": "llama-1b", "seed": 10018, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10018, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10018, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10018, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10018, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10018, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8124.57, 0.032)"}
+{"model": "llama-1b", "seed": 10018, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(7514.8, 0.032)"}
+{"model": "llama-1b", "seed": 10018, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(1365.7, 0.032)"}
+{"model": "llama-1b", "seed": 10018, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(305659.0, 0.014)"}
+{"model": "llama-1b", "seed": 10018, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(603127.0, 0.045)"}
+{"model": "llama-1b", "seed": 10018, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9611\", 259.99)"}
+{"model": "llama-1b", "seed": 10018, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1016\", 240.47)"}
+{"model": "llama-1b", "seed": 10018, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1016\", 43.7)"}
+{"model": "llama-1b", "seed": 10018, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7610\", 42.79)"}
+{"model": "llama-1b", "seed": 10018, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7610\", 271.4)"}
+{"model": "llama-1b", "seed": 10019, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-9104\")\nCALL read_account(account_id=\"AC-4043\")\nCALL read"}
+{"model": "llama-1b", "seed": 10019, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-4043\")"}
+{"model": "llama-1b", "seed": 10019, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1730\")"}
+{"model": "llama-1b", "seed": 10019, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9881\")"}
+{"model": "llama-1b", "seed": 10019, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1730\")"}
+{"model": "llama-1b", "seed": 10019, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10019, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10019, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10019, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "llama-1b", "seed": 10019, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10019, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(4489.62, 0.032)"}
+{"model": "llama-1b", "seed": 10019, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(1463.25, 0.021)"}
+{"model": "llama-1b", "seed": 10019, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(76413.33, 0.021)"}
+{"model": "llama-1b", "seed": 10019, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(5507.35, 0.014)"}
+{"model": "llama-1b", "seed": 10019, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(8876.71, 0.021)"}
+{"model": "llama-1b", "seed": 10019, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9104\", 143.67)"}
+{"model": "llama-1b", "seed": 10019, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4043\", 30.73)"}
+{"model": "llama-1b", "seed": 10019, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1730\", 160.47)"}
+{"model": "llama-1b", "seed": 10019, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5040\", 77.1)"}
+{"model": "llama-1b", "seed": 10019, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9881\", 93.35)"}
+{"model": "llama-1b", "seed": 10020, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-2646\")\nCALL read_account(account_id=\"AC-9570\")\nCALL read"}
+{"model": "llama-1b", "seed": 10020, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5451\")"}
+{"model": "llama-1b", "seed": 10020, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6884\")"}
+{"model": "llama-1b", "seed": 10020, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6884\")"}
+{"model": "llama-1b", "seed": 10020, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6884\")"}
+{"model": "llama-1b", "seed": 10020, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10020, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10020, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10020, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10020, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10020, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1210.7, 0.032)"}
+{"model": "llama-1b", "seed": 10020, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(92683.0, 0.032)"}
+{"model": "llama-1b", "seed": 10020, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(23053.0, 0.014)"}
+{"model": "llama-1b", "seed": 10020, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(63087.6, 0.045)"}
+{"model": "llama-1b", "seed": 10020, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(70379.4, 0.045)"}
+{"model": "llama-1b", "seed": 10020, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2646\", 38.74)"}
+{"model": "llama-1b", "seed": 10020, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9570\", 296.59)"}
+{"model": "llama-1b", "seed": 10020, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5451\", 32.28)"}
+{"model": "llama-1b", "seed": 10020, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1281\", 105.19)"}
+{"model": "llama-1b", "seed": 10020, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4202\", 141.94)"}
+{"model": "llama-1b", "seed": 10021, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-9112\")\nString balance = read_account(account_id=\"AC-9112\")."}
+{"model": "llama-1b", "seed": 10021, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-1037\", 8.6)"}
+{"model": "llama-1b", "seed": 10021, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1969\")"}
+{"model": "llama-1b", "seed": 10021, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8524\")"}
+{"model": "llama-1b", "seed": 10021, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4467\")"}
+{"model": "llama-1b", "seed": 10021, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10021, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10021, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10021, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10021, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10021, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7432.08, 0.032)"}
+{"model": "llama-1b", "seed": 10021, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(7848.46, 0.014)"}
+{"model": "llama-1b", "seed": 10021, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(978.84, 0.032)"}
+{"model": "llama-1b", "seed": 10021, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(9571.28, 0.014)"}
+{"model": "llama-1b", "seed": 10021, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(1440.14, 0.032)"}
+{"model": "llama-1b", "seed": 10021, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9112\", 237.83)"}
+{"model": "llama-1b", "seed": 10021, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1969\", 109.88)"}
+{"model": "llama-1b", "seed": 10021, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1969\", 31.32)"}
+{"model": "llama-1b", "seed": 10021, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8524\", 13.4)"}
+{"model": "llama-1b", "seed": 10021, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7901\", 92.8)"}
+{"model": "llama-1b", "seed": 10022, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-8485\")\nCALL get_rate(tier=\"premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10022, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-7002\", 95.46)"}
+{"model": "llama-1b", "seed": 10022, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5038\")"}
+{"model": "llama-1b", "seed": 10022, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5038\")"}
+{"model": "llama-1b", "seed": 10022, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7002\")"}
+{"model": "llama-1b", "seed": 10022, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10022, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10022, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10022, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10022, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10022, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7125.59, 0.021)"}
+{"model": "llama-1b", "seed": 10022, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(893119.9, 0.021)"}
+{"model": "llama-1b", "seed": 10022, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(29831.2, 0.032)"}
+{"model": "llama-1b", "seed": 10022, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(61000.0, 0.021)"}
+{"model": "llama-1b", "seed": 10022, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(36259.9, 0.014)"}
+{"model": "llama-1b", "seed": 10022, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8485\", 149.64)"}
+{"model": "llama-1b", "seed": 10022, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7002\", 1877.57)"}
+{"model": "llama-1b", "seed": 10022, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5038\", 95.46)"}
+{"model": "llama-1b", "seed": 10022, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5038\", 128.1)"}
+{"model": "llama-1b", "seed": 10022, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3795\", 50.76)"}
+{"model": "llama-1b", "seed": 10023, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-3668\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10023, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-8632\", 11.87)"}
+{"model": "llama-1b", "seed": 10023, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2757\")"}
+{"model": "llama-1b", "seed": 10023, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1011\")"}
+{"model": "llama-1b", "seed": 10023, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5781\")"}
+{"model": "llama-1b", "seed": 10023, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10023, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10023, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10023, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10023, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10023, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(5289.48, 0.021)"}
+{"model": "llama-1b", "seed": 10023, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(821336.0, 0.032)"}
+{"model": "llama-1b", "seed": 10023, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(5356.05, 0.021)"}
+{"model": "llama-1b", "seed": 10023, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(2577.25, 0.045)"}
+{"model": "llama-1b", "seed": 10023, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(4739.61, 0.021)"}
+{"model": "llama-1b", "seed": 10023, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3668\", 111.08)"}
+{"model": "llama-1b", "seed": 10023, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2757\", 55.54)"}
+{"model": "llama-1b", "seed": 10023, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2757\", 55.54)"}
+{"model": "llama-1b", "seed": 10023, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1011\", 56.24)"}
+{"model": "llama-1b", "seed": 10023, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5781\", 99.53)"}
+{"model": "llama-1b", "seed": 10024, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-3513\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10024, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3513\")"}
+{"model": "llama-1b", "seed": 10024, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6037\")"}
+{"model": "llama-1b", "seed": 10024, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6037\")"}
+{"model": "llama-1b", "seed": 10024, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6037\")"}
+{"model": "llama-1b", "seed": 10024, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10024, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10024, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10024, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "llama-1b", "seed": 10024, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10024, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7240.22, 0.045)"}
+{"model": "llama-1b", "seed": 10024, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(7382.47, 0.021)"}
+{"model": "llama-1b", "seed": 10024, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(579776, 0.021)"}
+{"model": "llama-1b", "seed": 10024, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(600450.16, 0.014)"}
+{"model": "llama-1b", "seed": 10024, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(9066601, 0.021)"}
+{"model": "llama-1b", "seed": 10024, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3513\", 325.81)"}
+{"model": "llama-1b", "seed": 10024, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2455\", 155.03)"}
+{"model": "llama-1b", "seed": 10024, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4123\", 121.75)"}
+{"model": "llama-1b", "seed": 10024, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4123\", 102.24)"}
+{"model": "llama-1b", "seed": 10024, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6037\", 190.39)"}
+{"model": "llama-1b", "seed": 10025, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-8675\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10025, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-6144\", 0.014)"}
+{"model": "llama-1b", "seed": 10025, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6144\")"}
+{"model": "llama-1b", "seed": 10025, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1155\")"}
+{"model": "llama-1b", "seed": 10025, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7789\")"}
+{"model": "llama-1b", "seed": 10025, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10025, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10025, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10025, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10025, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10025, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1197.23, 0.014)"}
+{"model": "llama-1b", "seed": 10025, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(8434.03, 0.021)"}
+{"model": "llama-1b", "seed": 10025, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(6430.6, 0.021)"}
+{"model": "llama-1b", "seed": 10025, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(51.26, 0.021)"}
+{"model": "llama-1b", "seed": 10025, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(6841.16, 0.014)"}
+{"model": "llama-1b", "seed": 10025, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8675\", 16.76)"}
+{"model": "llama-1b", "seed": 10025, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6144\", 177.11)"}
+{"model": "llama-1b", "seed": 10025, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3157\", 135.04)"}
+{"model": "llama-1b", "seed": 10025, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1155\", 4.19)"}
+{"model": "llama-1b", "seed": 10025, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7789\", 95.78)"}
+{"model": "llama-1b", "seed": 10026, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-4324\")\nCALL read_account(account_id=\"AC-8940\")\nCALL read"}
+{"model": "llama-1b", "seed": 10026, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-1463\", 147.57)"}
+{"model": "llama-1b", "seed": 10026, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1463\")"}
+{"model": "llama-1b", "seed": 10026, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7398\")"}
+{"model": "llama-1b", "seed": 10026, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7398\")"}
+{"model": "llama-1b", "seed": 10026, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10026, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10026, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10026, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10026, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10026, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8104.52, 0.021)"}
+{"model": "llama-1b", "seed": 10026, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(4000.8, 0.021)"}
+{"model": "llama-1b", "seed": 10026, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(1012.17, 0.021)"}
+{"model": "llama-1b", "seed": 10026, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(1482.92, 0.032)"}
+{"model": "llama-1b", "seed": 10026, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(4611.49, 0.032)"}
+{"model": "llama-1b", "seed": 10026, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4324\", 170.19)"}
+{"model": "llama-1b", "seed": 10026, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8940\", 84.02)"}
+{"model": "llama-1b", "seed": 10026, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1463\", 21.26)"}
+{"model": "llama-1b", "seed": 10026, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7277\", 119.19)"}
+{"model": "llama-1b", "seed": 10026, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8756\", 147.57)"}
+{"model": "llama-1b", "seed": 10027, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-4578\")\nCALL read_account(account_id=\"AC-2313\")\nCALL read"}
+{"model": "llama-1b", "seed": 10027, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-2313\", 230.8)"}
+{"model": "llama-1b", "seed": 10027, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9592\")"}
+{"model": "llama-1b", "seed": 10027, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9592\")"}
+{"model": "llama-1b", "seed": 10027, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9592\")"}
+{"model": "llama-1b", "seed": 10027, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10027, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10027, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10027, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10027, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10027, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(6567.62, 0.014)"}
+{"model": "llama-1b", "seed": 10027, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(2384.46, 0.032)"}
+{"model": "llama-1b", "seed": 10027, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(4918.44, 0.032)"}
+{"model": "llama-1b", "seed": 10027, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(780730.32, 0.045)"}
+{"model": "llama-1b", "seed": 10027, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(72123.35, 0.032)"}
+{"model": "llama-1b", "seed": 10027, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4578\", 91.95)"}
+{"model": "llama-1b", "seed": 10027, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2260\", 76.3)"}
+{"model": "llama-1b", "seed": 10027, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9592\", 157.39)"}
+{"model": "llama-1b", "seed": 10027, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9592\", 3513.0)"}
+{"model": "llama-1b", "seed": 10027, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8220\", 230.8)"}
+{"model": "llama-1b", "seed": 10028, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-6303\")\nCALL get_rate(tier=\"premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10028, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-3531\", 34.52)"}
+{"model": "llama-1b", "seed": 10028, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3531\")"}
+{"model": "llama-1b", "seed": 10028, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8895\")"}
+{"model": "llama-1b", "seed": 10028, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9999\")"}
+{"model": "llama-1b", "seed": 10028, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10028, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10028, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10028, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "llama-1b", "seed": 10028, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10028, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1664.16, 0.021)"}
+{"model": "llama-1b", "seed": 10028, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(6108.87, 0.021)"}
+{"model": "llama-1b", "seed": 10028, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(2082.56, 0.021)"}
+{"model": "llama-1b", "seed": 10028, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(3082.42, 0.021)"}
+{"model": "llama-1b", "seed": 10028, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(1112.53, 0.014)"}
+{"model": "llama-1b", "seed": 10028, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6303\", 34.95)"}
+{"model": "llama-1b", "seed": 10028, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3531\", 128.29)"}
+{"model": "llama-1b", "seed": 10028, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8895\", 0.0)"}
+{"model": "llama-1b", "seed": 10028, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8895\", 21.86)"}
+{"model": "llama-1b", "seed": 10028, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9999\", 17.04)"}
+{"model": "llama-1b", "seed": 10029, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-3968\")\nCALL read_account(account_id=\"AC-4728\")\nCALL read"}
+{"model": "llama-1b", "seed": 10029, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-4728\", 131.12)"}
+{"model": "llama-1b", "seed": 10029, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9546\")"}
+{"model": "llama-1b", "seed": 10029, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6532\")"}
+{"model": "llama-1b", "seed": 10029, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6831\")"}
+{"model": "llama-1b", "seed": 10029, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10029, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10029, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10029, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10029, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10029, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8699.45, 0.045)"}
+{"model": "llama-1b", "seed": 10029, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(9365367.37, 0.014)"}
+{"model": "llama-1b", "seed": 10029, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(82576.56, 0.032)"}
+{"model": "llama-1b", "seed": 10029, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(2850.33, 0.045)"}
+{"model": "llama-1b", "seed": 10029, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(4447.71, 0.021)"}
+{"model": "llama-1b", "seed": 10029, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3968\", 391.48)"}
+{"model": "llama-1b", "seed": 10029, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4728\", 131.12)"}
+{"model": "llama-1b", "seed": 10029, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6532\", 264.24)"}
+{"model": "llama-1b", "seed": 10029, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6532\", 1282.6)"}
+{"model": "llama-1b", "seed": 10029, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3139\", 93.4)"}
+{"model": "llama-1b", "seed": 10030, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-6036\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10030, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-9634\", 86.81)"}
+{"model": "llama-1b", "seed": 10030, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1364\")"}
+{"model": "llama-1b", "seed": 10030, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9775\")"}
+{"model": "llama-1b", "seed": 10030, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1364\")"}
+{"model": "llama-1b", "seed": 10030, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10030, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10030, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "llama-1b", "seed": 10030, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10030, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10030, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7455.94, 0.032)"}
+{"model": "llama-1b", "seed": 10030, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(336026.6, 0.032)"}
+{"model": "llama-1b", "seed": 10030, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(7272, 0.014)"}
+{"model": "llama-1b", "seed": 10030, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(39092.1, 0.045)"}
+{"model": "llama-1b", "seed": 10030, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(1929.12, 0.045)"}
+{"model": "llama-1b", "seed": 10030, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6036\", 238.59)"}
+{"model": "llama-1b", "seed": 10030, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1364\", 107.53)"}
+{"model": "llama-1b", "seed": 10030, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1364\", 10.2)"}
+{"model": "llama-1b", "seed": 10030, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9775\", 175.9)"}
+{"model": "llama-1b", "seed": 10030, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7528\", 43.19)"}
+{"model": "llama-1b", "seed": 10031, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-6778\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10031, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-3416\", 60.28)"}
+{"model": "llama-1b", "seed": 10031, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3202\")"}
+{"model": "llama-1b", "seed": 10031, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3416\")"}
+{"model": "llama-1b", "seed": 10031, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7737\")"}
+{"model": "llama-1b", "seed": 10031, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10031, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10031, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10031, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10031, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10031, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1279.63, 0.045)"}
+{"model": "llama-1b", "seed": 10031, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(4688.21, 0.021)"}
+{"model": "llama-1b", "seed": 10031, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(1781.45, 0.032)"}
+{"model": "llama-1b", "seed": 10031, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(2870.4, 0.021)"}
+{"model": "llama-1b", "seed": 10031, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(522.29, 0.021)"}
+{"model": "llama-1b", "seed": 10031, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6778\", 57.58)"}
+{"model": "llama-1b", "seed": 10031, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3416\", 985.5)"}
+{"model": "llama-1b", "seed": 10031, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3202\", 25.51)"}
+{"model": "llama-1b", "seed": 10031, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2711\", 60.28)"}
+{"model": "llama-1b", "seed": 10031, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7737\", 109.7)"}
+{"model": "llama-1b", "seed": 10032, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-1072\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10032, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-8491\", 27.26)"}
+{"model": "llama-1b", "seed": 10032, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4489\")"}
+{"model": "llama-1b", "seed": 10032, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-4489\")"}
+{"model": "llama-1b", "seed": 10032, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1072\")"}
+{"model": "llama-1b", "seed": 10032, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10032, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10032, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10032, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10032, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10032, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(6225.39, 0.014)"}
+{"model": "llama-1b", "seed": 10032, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(194714.4, 0.014)"}
+{"model": "llama-1b", "seed": 10032, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(27426.9, 0.045)"}
+{"model": "llama-1b", "seed": 10032, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(14042.3, 0.021)"}
+{"model": "llama-1b", "seed": 10032, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(74697.75, 0.045)"}
+{"model": "llama-1b", "seed": 10032, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1072\", 87.16)"}
+{"model": "llama-1b", "seed": 10032, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9332\", 174.32)"}
+{"model": "llama-1b", "seed": 10032, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4489\", 123.42)"}
+{"model": "llama-1b", "seed": 10032, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6056\", 2949.1)"}
+{"model": "llama-1b", "seed": 10032, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8990\", 336.14)"}
+{"model": "llama-1b", "seed": 10033, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-4693\")\nCALL read_account(account_id=\"AC-7102\")\nCALL read"}
+{"model": "llama-1b", "seed": 10033, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-7081\", 70.08)"}
+{"model": "llama-1b", "seed": 10033, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4841\")"}
+{"model": "llama-1b", "seed": 10033, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2691\")"}
+{"model": "llama-1b", "seed": 10033, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4841\")"}
+{"model": "llama-1b", "seed": 10033, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10033, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10033, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10033, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10033, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10033, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8692.68, 0.032)"}
+{"model": "llama-1b", "seed": 10033, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(5005.74, 0.014)"}
+{"model": "llama-1b", "seed": 10033, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(807.54, 0.014)"}
+{"model": "llama-1b", "seed": 10033, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(10011.48, 0.014)"}
+{"model": "llama-1b", "seed": 10033, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(26148.96, 0.032)"}
+{"model": "llama-1b", "seed": 10033, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4693\", 278.17)"}
+{"model": "llama-1b", "seed": 10033, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7102\", 70.08)"}
+{"model": "llama-1b", "seed": 10033, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2691\", 11.31)"}
+{"model": "llama-1b", "seed": 10033, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2691\", 114.1)"}
+{"model": "llama-1b", "seed": 10033, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4841\", 254.11)"}
+{"model": "llama-1b", "seed": 10034, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-9288\")\nCALL get_rate(tier=\"tier1\")\nCALL compute(balance=read"}
+{"model": "llama-1b", "seed": 10034, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3824\")"}
+{"model": "llama-1b", "seed": 10034, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3824\")"}
+{"model": "llama-1b", "seed": 10034, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9288\")"}
+{"model": "llama-1b", "seed": 10034, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3824\")"}
+{"model": "llama-1b", "seed": 10034, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10034, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10034, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10034, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10034, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10034, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(4968.45, 0.045)"}
+{"model": "llama-1b", "seed": 10034, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(9357.35, 0.014)"}
+{"model": "llama-1b", "seed": 10034, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(8826.53, 0.021)"}
+{"model": "llama-1b", "seed": 10034, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(6201.69, 0.014)"}
+{"model": "llama-1b", "seed": 10034, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(736.32, 0.045)"}
+{"model": "llama-1b", "seed": 10034, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9288\", 223.58)"}
+{"model": "llama-1b", "seed": 10034, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4922\", 131.0)"}
+{"model": "llama-1b", "seed": 10034, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4922\", 185.36)"}
+{"model": "llama-1b", "seed": 10034, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4338\", 6201.69)"}
+{"model": "llama-1b", "seed": 10034, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4075\", 33.13)"}
+{"model": "llama-1b", "seed": 10035, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-9466\")\nCALL read_account(account_id=\"AC-6557\")\nCALL read"}
+{"model": "llama-1b", "seed": 10035, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-6557\", 0.012)"}
+{"model": "llama-1b", "seed": 10035, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4884\")"}
+{"model": "llama-1b", "seed": 10035, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-4884\")"}
+{"model": "llama-1b", "seed": 10035, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3316\")"}
+{"model": "llama-1b", "seed": 10035, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10035, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10035, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10035, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10035, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10035, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(5872.75, 0.032)"}
+{"model": "llama-1b", "seed": 10035, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(3674492, 0.014)"}
+{"model": "llama-1b", "seed": 10035, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(523162, 0.014)"}
+{"model": "llama-1b", "seed": 10035, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(72020.96, 0.021)"}
+{"model": "llama-1b", "seed": 10035, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(22852.48, 0.014)"}
+{"model": "llama-1b", "seed": 10035, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9466\", 187.93)"}
+{"model": "llama-1b", "seed": 10035, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2191\", 51.45)"}
+{"model": "llama-1b", "seed": 10035, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4884\", 102.9)"}
+{"model": "llama-1b", "seed": 10035, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4884\", 294.5)"}
+{"model": "llama-1b", "seed": 10035, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3226\", 78.36)"}
+{"model": "llama-1b", "seed": 10036, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-6332\")\nCALL read_account(account_id=\"AC-9467\")\nCALL read"}
+{"model": "llama-1b", "seed": 10036, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9467\")"}
+{"model": "llama-1b", "seed": 10036, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7845\")"}
+{"model": "llama-1b", "seed": 10036, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3221\")"}
+{"model": "llama-1b", "seed": 10036, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3221\")"}
+{"model": "llama-1b", "seed": 10036, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10036, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "llama-1b", "seed": 10036, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10036, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10036, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10036, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(3220.54, 0.045)"}
+{"model": "llama-1b", "seed": 10036, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(6980.22, 0.014)"}
+{"model": "llama-1b", "seed": 10036, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(934.39, 0.014)"}
+{"model": "llama-1b", "seed": 10036, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(90454.9, 0.021)"}
+{"model": "llama-1b", "seed": 10036, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(30154.9, 0.021)"}
+{"model": "llama-1b", "seed": 10036, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6332\", 144.92)"}
+{"model": "llama-1b", "seed": 10036, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7845\", 97.72)"}
+{"model": "llama-1b", "seed": 10036, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8253\", 130.81)"}
+{"model": "llama-1b", "seed": 10036, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8253\", 189.95)"}
+{"model": "llama-1b", "seed": 10036, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3221\", 63.32)"}
+{"model": "llama-1b", "seed": 10037, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-3062\")\nCALL get_rate(tier=\"Premium\")\nCALL compute(balance=read_acco"}
+{"model": "llama-1b", "seed": 10037, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-8338\", 267.72)"}
+{"model": "llama-1b", "seed": 10037, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8564\")"}
+{"model": "llama-1b", "seed": 10037, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8564\")"}
+{"model": "llama-1b", "seed": 10037, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1697\")"}
+{"model": "llama-1b", "seed": 10037, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10037, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10037, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10037, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10037, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10037, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1639.56, 0.021)"}
+{"model": "llama-1b", "seed": 10037, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(836619.9, 0.032)"}
+{"model": "llama-1b", "seed": 10037, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(297048.16, 0.032)"}
+{"model": "llama-1b", "seed": 10037, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(68546.0, 0.021)"}
+{"model": "llama-1b", "seed": 10037, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(49750.9, 0.045)"}
+{"model": "llama-1b", "seed": 10037, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3062\", 34.43)"}
+{"model": "llama-1b", "seed": 10037, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8338\", 267.72)"}
+{"model": "llama-1b", "seed": 10037, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8338\", 95.06)"}
+{"model": "llama-1b", "seed": 10037, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8564\", 14.39)"}
+{"model": "llama-1b", "seed": 10037, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1697\", 223.9)"}
+{"model": "llama-1b", "seed": 10038, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-2514\")\nCALL get_rate(tier=\"tier1\")\nCALL compute(balance=read"}
+{"model": "llama-1b", "seed": 10038, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-6213\", 193.82)"}
+{"model": "llama-1b", "seed": 10038, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1220\")"}
+{"model": "llama-1b", "seed": 10038, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9712\")"}
+{"model": "llama-1b", "seed": 10038, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1220\")"}
+{"model": "llama-1b", "seed": 10038, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10038, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10038, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10038, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10038, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10038, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(3015.84, 0.021)"}
+{"model": "llama-1b", "seed": 10038, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(6056.81, 0.032)"}
+{"model": "llama-1b", "seed": 10038, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(8888.17, 0.021)"}
+{"model": "llama-1b", "seed": 10038, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(2469.43, 0.014)"}
+{"model": "llama-1b", "seed": 10038, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(73767.6, 0.021)"}
+{"model": "llama-1b", "seed": 10038, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2514\", 63.33)"}
+{"model": "llama-1b", "seed": 10038, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6213\", 193.82)"}
+{"model": "llama-1b", "seed": 10038, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6213\", 186.65)"}
+{"model": "llama-1b", "seed": 10038, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9712\", 87.19)"}
+{"model": "llama-1b", "seed": 10038, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4140\", 296.3)"}
+{"model": "llama-1b", "seed": 10039, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(account_id=\"AC-4974\")\nCALL read_account(account_id=\"AC-7651\")\nCALL read"}
+{"model": "llama-1b", "seed": 10039, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL submit(\"AC-7651\", 75.54)"}
+{"model": "llama-1b", "seed": 10039, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4974\")"}
+{"model": "llama-1b", "seed": 10039, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1347\")"}
+{"model": "llama-1b", "seed": 10039, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1786\")"}
+{"model": "llama-1b", "seed": 10039, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10039, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "llama-1b", "seed": 10039, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "llama-1b", "seed": 10039, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10039, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "llama-1b", "seed": 10039, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1745.72, 0.032)"}
+{"model": "llama-1b", "seed": 10039, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(8108.8, 0.021)"}
+{"model": "llama-1b", "seed": 10039, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(5395.85, 0.014)"}
+{"model": "llama-1b", "seed": 10039, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(606.87, 0.021)"}
+{"model": "llama-1b", "seed": 10039, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(4821.12, 0.014)"}
+{"model": "llama-1b", "seed": 10039, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4974\", 55.86)"}
+{"model": "llama-1b", "seed": 10039, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6630\", 170.28)"}
+{"model": "llama-1b", "seed": 10039, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1347\", 25.19)"}
+{"model": "llama-1b", "seed": 10039, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1347\", 127.43)"}
+{"model": "llama-1b", "seed": 10039, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1786\", 105.24)"}

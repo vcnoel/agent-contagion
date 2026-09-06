@@ -1,0 +1,162 @@
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 0, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7311\")\nCALL read_account(\"AC-1663\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 1, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")\nCALL submit(\"AC-7311\", round(7321.5"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 2, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7311\", round(7321.59 * 0.0"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-1663\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 39.25)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "clean", "t": -1, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 0, "s": 1, "kind": "rate", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL read_account(\"AC-1663\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 0, "s": 2, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", round(8764.11 * 0.0"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 0, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-1663\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 0, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 0, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 39.25)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 0, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL read_account(\"AC-7311\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 0, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 0, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-7634\", 184.05)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 0, "s": 1, "kind": "rate", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL read_account( \"AC-1663\" )\nCALL read_account( \"AC-7634"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 0, "s": 2, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit( \"AC-7311\", round(7321.59 * 0."}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 0, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account( \"AC-1663\" )"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 0, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 0, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 39.25)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 0, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 0, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 0, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 1, "s": 2, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7311\", round(7321.59 * 0.0"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 1, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-1663\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 1, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 1, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 390.31)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 1, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 1, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 1, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 184.55)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 1, "s": 2, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit( \"AC-7311\", round(7321.59 * 0."}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 1, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-1663\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 1, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate( \"D\" )"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 1, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 39.25)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 1, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 1, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 1, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 2, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-1663\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 2, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 2, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 37.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 2, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 2, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 2, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 183.45)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 2, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-1663\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 2, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 2, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit( \"AC-1663\", 39.1 )"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 2, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 2, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 2, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 3, "s": 4, "kind": "rate", "relation": "dep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 3, "s": 5, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7311\", 102.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 3, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL read_account(\"AC-1663\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 3, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 3, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 181.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 3, "s": 4, "kind": "rate", "relation": "dep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 3, "s": 5, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 39.25)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 3, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account( \"AC-7634\" )"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 3, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 3, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 4, "s": 5, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 121.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 4, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 4, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 4, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 181.53)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 4, "s": 5, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-1663\", 39.25)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 4, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 4, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 4, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 5, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 5, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 5, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.15)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 5, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-7634\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 5, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 5, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 6, "s": 7, "kind": "rate", "relation": "dep", "ok_faithful": 1, "ok_canonical": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 6, "s": 8, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7311\", 102.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 6, "s": 7, "kind": "rate", "relation": "dep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 6, "s": 8, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "err", "t": 7, "s": 8, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 262.5)"}
+{"model": "qwen-1.5b", "seed": 0, "cond": "placebo", "t": 7, "s": 8, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-7634\", 182.5)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 0, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account('AC-3201')\nCALL read_account('AC-5179')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 1, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"A\")\nCALL submit(\"AC-3201\", round(5622.8"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 2, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-3201\", round(5622.83 * 0.0"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-5179\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-5179\", 21.86)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "clean", "t": -1, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 202.14)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 0, "s": 1, "kind": "rate", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL read_account(\"AC-5179\")\nCALL read_account(\"AC-3201\")\nCALL get"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 0, "s": 2, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", round(6364.34 * 0.0"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 0, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-5179\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 0, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 0, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-5179\", 21.86)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 0, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL read_account(\"AC-3201\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 0, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 0, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-8737\", 203.66)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 0, "s": 1, "kind": "rate", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL read_account( \"AC-5179\" )\nCALL read_account( \"AC-8737"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 0, "s": 2, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit( \"AC-3201\", round(5622.83 * 0."}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 0, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account( \"AC-5179\" )"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 0, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 0, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-5179\", 21.86)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 0, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 0, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 0, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 202.14)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 1, "s": 2, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-3201\", round(5622.83 * 0.0"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 1, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-5179\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 1, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 1, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-5179\", 22.46)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 1, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 1, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 1, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 201.14)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 1, "s": 2, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-3201\", round(5622.83 * 0.0"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 1, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-5179\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 1, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate( \"D\" )"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 1, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-5179\", 21.86)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 1, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 1, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 1, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 203.04)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 2, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-5179\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 2, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 2, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-5179\", 222.55)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 2, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 2, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 2, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 2025.4)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 2, "s": 3, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-5179\")\nRESULT {\"balance\": 1234.56,"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 2, "s": 4, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 2, "s": 5, "kind": "submit", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit( \"AC-5179\", 21.86 )"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 2, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 2, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 2, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 202.14)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 3, "s": 4, "kind": "rate", "relation": "dep", "ok_faithful": 1, "ok_canonical": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 3, "s": 5, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 202.00)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 3, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL read_account(\"AC-5179\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 3, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 3, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-8737\", 203.66)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 3, "s": 4, "kind": "rate", "relation": "dep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate( \"D\" )"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 3, "s": 5, "kind": "submit", "relation": "dep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-5179\", 21.86)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 3, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account( \"AC-8737\" )"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 3, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 3, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 202.14)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 4, "s": 5, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-5179\", 48.16)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 4, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 4, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 4, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 203.60)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 4, "s": 5, "kind": "submit", "relation": "dep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL submit(\"AC-5179\", 21.86)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 4, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 4, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 4, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 202.14)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 5, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 5, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 5, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 203.6)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 5, "s": 6, "kind": "read", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL read_account(\"AC-8737\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 5, "s": 7, "kind": "rate", "relation": "indep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 5, "s": 8, "kind": "submit", "relation": "indep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 202.14)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 6, "s": 7, "kind": "rate", "relation": "dep", "ok_faithful": 1, "ok_canonical": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 6, "s": 8, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-5179\", 21.86)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 6, "s": 7, "kind": "rate", "relation": "dep", "ok_faithful": 1, "ok_canonical": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 6, "s": 8, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 203.60)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "err", "t": 7, "s": 8, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 272.05)"}
+{"model": "qwen-1.5b", "seed": 1, "cond": "placebo", "t": 7, "s": 8, "kind": "submit", "relation": "dep", "ok_faithful": 0, "ok_canonical": 0, "gen": "CALL submit(\"AC-8737\", 202.14)"}

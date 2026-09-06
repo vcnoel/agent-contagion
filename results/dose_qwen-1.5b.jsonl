@@ -1,0 +1,800 @@
+{"model": "qwen-1.5b", "seed": 10000, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-5887')\nCALL read_account('AC-1413')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1413\")"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3877\")"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3877\")"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1322\")"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(9185.89, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(9185.89, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(637.61, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(780.05, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(912.55, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(15840.81, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5887\", 413.37)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1413\", 286.92)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5274\", 33.99)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3877\", 166.33)"}
+{"model": "qwen-1.5b", "seed": 10000, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7149\", 1663.3)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-6837')\nCALL read_account('AC-7897')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7897\")"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4913\")"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7165\")"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7165\")"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(1063.04, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1063.04, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(57292.5, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(1704.96, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(49889.5, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(34055, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6837\", 47.84)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7897\", 257.82)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5397\", 35.8)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1346\", 159.65)"}
+{"model": "qwen-1.5b", "seed": 10001, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4913\", 14.5)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7388\")\nCALL read_account(\"AC-6138\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5013\")"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5128\")"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5128\")"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5128\")"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(2543.58, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(2543.58, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(5087.16, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(3693.22, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(1211.46, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(5229.1, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7388\", 114.46)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6138\", 13.19)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5013\", 118.18)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6721\", 87.21)"}
+{"model": "qwen-1.5b", "seed": 10002, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5128\", 23.53)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-4321')\nCALL read_account('AC-7896')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7896\")"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7896\")"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6013\")"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6088\")"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")  \nCALL compute(544.27, \"rate\")  \nCALL submit(\""}
+{"model": "qwen-1.5b", "seed": 10003, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(544.27, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(1088.54, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(48093.2, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(569.37, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(93131.2, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4321\", 17.42)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7896\", 57.09)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5295\", 94.67)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2631\", 25.62)"}
+{"model": "qwen-1.5b", "seed": 10003, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6013\", 419.09)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8924\")\nCALL read_account(\"AC-9674\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1607\")"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1607\")"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1607\")"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1607\")"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(6260.25, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(6260.25, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(12520.5, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(536.59, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(9192.08, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(330.68, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8924\", 281.71)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9674\", 14.08)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1607\", 51.54)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3879\", 170.82)"}
+{"model": "qwen-1.5b", "seed": 10004, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6903\", 1058.2)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(AC-9723);\nCALL read_account(AC-5499);\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5499\")"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3307\")"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3307\")"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3307\")"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(6494.17, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(6494.17, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(474.11, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(510.83, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(7453.93, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(12007.7, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9723\", 292.24)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5499\", 2133.5)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6932\", 107.27)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2418\", 146.13)"}
+{"model": "qwen-1.5b", "seed": 10005, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3307\", 25.22)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-4902\")\nCALL read_account(\"AC-3560\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5375\")"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3560\")"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3058\")"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4466\")"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")  \nCALL compute(1002.48, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1002.48, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(13987.1, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(42025.4, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(3193.31, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(89919, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4902\", 32.08)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3560\", 27.88)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5375\", 8.68)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3058\", 13.42)"}
+{"model": "qwen-1.5b", "seed": 10006, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1428\", 173.85)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5203\")\nCALL read_account(\"AC-9906\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5622\")"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4565\")"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5622\")"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4565\")"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\") AS rate\nCALL compute(7354.53, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7354.53, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(1800.01, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(3677.26, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(5336.57, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(2839.24, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5203\", 235.34)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9906\", 28.6)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5622\", 142.32)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4565\", 108.11)"}
+{"model": "qwen-1.5b", "seed": 10007, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2532\", 131.94)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-3372')\nCALL read_account('AC-5864')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3920\")"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5864\")"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3920\")"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1703\")"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\") AS rate\nCALL compute(8870.0, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8870.0, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(1683.14, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(6330.98, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(2694.65, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(1438.02, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3372\", 124.18)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5864\", 67.55)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3920\", 6.29)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1708\", 124.68)"}
+{"model": "qwen-1.5b", "seed": 10008, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8684\", 12.08)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-6222')\nCALL read_account('AC-2733')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2733\")"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2733\")"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5492\")"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5492\")"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(2379.25, 0.08)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(2379.25, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(61428.2, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(8997.85, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(311.68, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(54624.5, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6222\", 107.07)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2733\", 17.0)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7669\", 125.97)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1076\", 99.74)"}
+{"model": "qwen-1.5b", "seed": 10009, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5492\", 76.47)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-5539')\nCALL read_account('AC-6877')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1895\")"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5527\")"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2197\")"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5527\")"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")  \nCALL compute(728.28, \"rate\")  \nCALL submit(\""}
+{"model": "qwen-1.5b", "seed": 10010, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(728.28, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(239.64, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(72.05, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(8105.27, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(7156.32, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5539\", 15.29)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6877\", 10.05)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1895\", 10.09)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2197\", 113.47)"}
+{"model": "qwen-1.5b", "seed": 10010, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5527\", 229.0)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-3437')\nCALL read_account('AC-6187')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6187\")"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3419\")"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3419\")"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8414\")"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")  \nCALL compute(5478.57, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(5478.57, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(1848.96, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(1736.42, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(4246.76, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(53711.2, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3437\", 115.05)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6187\", 359.4)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7899\", 72.83)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8414\", 8.74)"}
+{"model": "qwen-1.5b", "seed": 10011, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6916\", 112.79)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8457\")\nCALL read_account(\"AC-2281\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2281\")"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2308\")"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2308\")"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2308\")"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(3943.65, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(3943.65, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(553.36, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(356.31, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(35131, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(173.27, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8457\", 177.46)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2281\", 100.00)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2447\", 34.81)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6210\", 14.75)"}
+{"model": "qwen-1.5b", "seed": 10012, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2308\", 16.69)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6821\")\nCALL read_account(\"AC-4493\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7498\")"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7498\")"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7034\")"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7498\")"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")  \nCALL compute(4943.52, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(4943.52, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(67024.4, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(6210.37, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(3249.11, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(3846.8, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6821\", 69.21)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4493\", 140.75)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7498\", 86.95)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7034\", 103.97)"}
+{"model": "qwen-1.5b", "seed": 10013, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5334\", 187.35)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-7881')\nCALL read_account('AC-4804')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6439\")"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6451\")"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6451\")"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6439\")"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")  \nCALL compute(2424.21, 0.025"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(2424.21, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(3599.99, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(1670.1, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(14361.86, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(7811.43, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7881\", 50.91)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4804\", 188.77)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7851\", 267.22)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4392\", 229.79)"}
+{"model": "qwen-1.5b", "seed": 10014, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6439\", 74.99)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-3137')\nCALL read_account('AC-5881')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5881\")"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6087\")"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6087\")"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2698\")"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")  \nCALL compute(7907.1, 0.025)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7907.1, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(1703.52, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(1024.5, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(1666.32, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(14799.64, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3137\", 110.7)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5881\", 17.36)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6087\", 184.14)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2698\", 3.06)"}
+{"model": "qwen-1.5b", "seed": 10015, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1040\", 49.04)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8464\")\nCALL read_account(\"AC-3873\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3873\")"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3873\")"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3053\")"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9709\")"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(3519.26, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(3519.26, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(1759.63, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(1759.63, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(12870.53, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(12000.02, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8464\", 158.37)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3873\", 124.98)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3053\", 259.59)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9709\", 140.74)"}
+{"model": "qwen-1.5b", "seed": 10016, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4634\", 1021.8)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7368\")\nCALL read_account(\"AC-3674\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3674\")"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3772\")"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1489\")"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3674\")"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")  \nCALL compute(4343.47, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(4343.47, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(523.77, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(594.81, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(465.95, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(473.00, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7368\", 91.21)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3674\", 235.7)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3772\", 190.34)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8995\", 149.1)"}
+{"model": "qwen-1.5b", "seed": 10017, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4284\", 45.82)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9611\")\nCALL read_account(\"AC-7054\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7054\")"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7054\")"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1016\")"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6279\")"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\") AS rate\nCALL compute(8124.57, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8124.57, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(2254.96, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(1365.7, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(3056.59, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(14062.5, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9611\", 259.99)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7054\", 240.47)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1016\", 43.7)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6279\", 6.36)"}
+{"model": "qwen-1.5b", "seed": 10018, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7610\", 122.45)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9104\")\nCALL read_account(\"AC-4043\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9104\")"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4043\")"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9881\")"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9104\")"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\") AS rate\nCALL compute(4489.62, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(4489.62, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(1463.25, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(7641.33, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(5507.35, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(8876.71, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9104\", 143.67)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4043\", 30.73)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1730\", 160.47)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5040\", 7.71)"}
+{"model": "qwen-1.5b", "seed": 10019, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7912\", 186.41)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-2646')\nCALL read_account('AC-9570')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5451\")"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5451\")"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1281\")"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4202\")"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")  \nCALL compute(1210.7, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1210.7, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(92683.3, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(2305.53, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(63087.6, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(70379.4, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2646\", 38.74)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9570\", 29.66)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5451\", 3.56)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1281\", 125.95)"}
+{"model": "qwen-1.5b", "seed": 10020, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6884\", 141.94)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 0, "gen": "CALL read_account(AC-9112);\nCALL read_account(AC-1037);\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7901\")"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1969\")"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1037\")"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8524\")"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")  \nCALL compute(7432.08, 0.03)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7432.08, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(784.85, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(97.88, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(133.05, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(14401.4, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9112\", 237.83)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1037\", 109.88)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1969\", 31.32)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8524\", 13.4)"}
+{"model": "qwen-1.5b", "seed": 10021, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7901\", 14.41)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8485\")\nCALL read_account(\"AC-7002\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-5038\")"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3795\")"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-5038\")"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3795\")"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\") AS rate\nCALL compute(7125.59, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7125.59, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(8931.99, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(29831.2, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(61000.0, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(3625.9, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8485\", 149.64)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7002\", 187.57)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1891\", 95.46)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-5038\", 128.1)"}
+{"model": "qwen-1.5b", "seed": 10022, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3795\", 50.76)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-3668')\nCALL read_account('AC-8632')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2757\")"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8632\")"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2757\")"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3668\")"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")  \nCALL compute(5289.48, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(5289.48, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(8213.36, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(5356.05, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(257.73, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(473.96, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3668\", 111.08)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8632\", 28.89)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2757\", 112.48)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1011\", 115.98)"}
+{"model": "qwen-1.5b", "seed": 10023, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-5781\", 54.48)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-3513')\nCALL read_account('AC-8601')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2455\")"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2455\")"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9063\")"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9063\")"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(7240.22, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7240.22, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(14767.41, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(5797.76, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(6004.53, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(18198.02, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3513\", 325.81)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8601\", 155.03)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2455\", 121.75)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4123\", 11.21)"}
+{"model": "qwen-1.5b", "seed": 10024, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6037\", 190.39)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8675\")\nCALL read_account(\"AC-6144\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1155\")"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6144\")"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3157\")"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1155\")"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\") AS rate\nCALL compute(1197.23, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1197.23, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(8434.03, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(643.06, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(51.06, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(684.12, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8675\", 16.76)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6144\", 17.71)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3157\", 13.50)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1155\", 1.08)"}
+{"model": "qwen-1.5b", "seed": 10025, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3397\", 12.76)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-4324')\nCALL read_account('AC-8940')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1463\")"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8940\")"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7398\")"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7398\")"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\") AS rate\nCALL compute(8104.52, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8104.52, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(800.16, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(101.217, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(1482.92, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(1482.92, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4324\", 170.19)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8940\", 85.09)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1463\", 21.26)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7277\", 14.74)"}
+{"model": "qwen-1.5b", "seed": 10026, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8756\", 147.57)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-4578')\nCALL read_account('AC-2313')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2313\")"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2313\")"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9592\")"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9592\")"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\") AS rate\nCALL compute(6567.62, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(6567.62, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(1846.42, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(4918.44, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(7807.32, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(7212.35, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4578\", 91.95)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2313\", 183.9)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2260\", 157.39)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9592\", 351.33)"}
+{"model": "qwen-1.5b", "seed": 10027, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8220\", 230.8)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6303\")\nCALL read_account(\"AC-3531\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3531\")"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3531\")"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3531\")"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8895\")"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")  \nCALL compute(1664.16, 0.07)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1664.16, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(610.89, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(208.26, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(308.24, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(111.25, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6303\", 34.95)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3531\", 128.29)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3322\", 10.78)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8895\", 16.08)"}
+{"model": "qwen-1.5b", "seed": 10028, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9999\", 15.58)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-3968')\nCALL read_account('AC-4728')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9546\")"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6532\")"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6532\")"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3968\")"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(8699.45, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8699.45, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(9365.37, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(82575.6, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(28503.3, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(444.77, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3968\", 391.48)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4728\", 131.12)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9546\", 264.24)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6532\", 128.26)"}
+{"model": "qwen-1.5b", "seed": 10029, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3139\", 93.4)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-6036')\nCALL read_account('AC-9634')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9634\")"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1364\")"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7528\")"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7528\")"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\") AS rate\nCALL compute(7455.94, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(7455.94, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(33602.6, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(727.2, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(39092.7, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(1929.12, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6036\", 238.59)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9634\", 119.3)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1364\", 101.8)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9775\", 175.92)"}
+{"model": "qwen-1.5b", "seed": 10030, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2303\", 34.73)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-6778')\nCALL read_account('AC-3416')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3416\")"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2711\")"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-2711\")"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3202\")"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\") AS rate\nCALL compute(1279.63, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1279.63, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(4688.21, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(15719.64, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(2870.4, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(522.393, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6778\", 57.58)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3416\", 98.45)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3202\", 251.51)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2711\", 12.07)"}
+{"model": "qwen-1.5b", "seed": 10031, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6462\", 109.7)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-1072')\nCALL read_account('AC-8491')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9332\")"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4489\")"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-4489\")"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8990\")"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\") AS rate\nCALL compute(6225.39, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(6225.39, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(1947.14, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(27426.9, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(14042.3, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(14939.62, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1072\", 87.16)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8491\", 27.26)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9332\", 123.42)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4489\", 294.9)"}
+{"model": "qwen-1.5b", "seed": 10032, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6056\", 336.14)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-4693')\nCALL read_account('AC-7102')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7081\")"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7081\")"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7081\")"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-2691\")"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\") AS rate\nCALL compute(8692.68, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(8692.68, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(4346.34, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(113.09, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(14510.39, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(23763.46, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4693\", 278.17)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7102\", 14.08)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7081\", 11.31)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2691\", 81.97)"}
+{"model": "qwen-1.5b", "seed": 10033, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7465\", 254.11)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-9288\")\nCALL read_account(\"AC-3824\")\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1139\")"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3824\")"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4075\")"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-4075\")"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\") AS rate\nCALL compute(4968.45, rate) AS product"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(4968.45, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(935.74, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(882.65, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(620.17, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(73.63, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9288\", 223.58)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3824\", 131.0)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4922\", 185.36)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4338\", 86.82)"}
+{"model": "qwen-1.5b", "seed": 10034, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-4075\", 331.3)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-9466')\nCALL read_account('AC-6557')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-6557\")"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6557\")"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3316\")"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3316\")"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")  \nCALL compute(5872.75, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(5872.75, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(3674.92, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(52316.2, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(7201.98, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(22852.4, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-9466\", 187.93)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6557\", 15.45)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-2191\", 100.8)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4884\", 151.24)"}
+{"model": "qwen-1.5b", "seed": 10035, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-3226\", 10.79)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-6332')\nCALL read_account('AC-9467')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7845\")"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-9467\")"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-3221\")"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-3221\")"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"A\")  \nCALL compute(3220.54, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(3220.54, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(6980.22, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(934.39, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 1, "gen": "CALL compute(9045.39, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(3015.46, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6332\", 144.92)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9467\", 9.55)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7845\", 130.81)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8253\", 379.88)"}
+{"model": "qwen-1.5b", "seed": 10036, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3221\", 63.32)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-3062')\nCALL read_account('AC-7934')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8338\")"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-8564\")"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-8564\")"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1697\")"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")  \nCALL compute(1639.56, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"C\")"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"D\")"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1639.56, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(83661.9, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 1, "gen": "CALL compute(2970.48, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(6854.6, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(49759.3, 0.045)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-3062\", 34.43)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-7934\", 267.72)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-8338\", 95.06)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-8564\", 143.9)"}
+{"model": "qwen-1.5b", "seed": 10037, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1697\", 111.96)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-2514')\nCALL read_account('AC-7207')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-6213\")"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1220\")"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-1220\")"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-1220\")"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"C\")  \nCALL compute(3015.84, \"rate\")  \nCALL submit"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"E\")"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(3015.84, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 1, "gen": "CALL compute(6056.81, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(888.82, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(246.94, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 1, "gen": "CALL compute(7376.6, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-2514\", 63.33)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7207\", 19.38)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-6213\", 18.66)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-9712\", 1.05)"}
+{"model": "qwen-1.5b", "seed": 10038, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1220\", 15.49)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 0, "offset": 0, "s": 0, "kind": "read", "ok": 1, "gen": "CALL read_account('AC-4974')\nCALL read_account('AC-7651')\nCALL read"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 1, "offset": 0, "s": 4, "kind": "read", "ok": 1, "gen": "CALL read_account(\"AC-7651\")"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 2, "offset": 0, "s": 8, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7651\")"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 3, "offset": 0, "s": 12, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-7651\")"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 4, "offset": 0, "s": 16, "kind": "read", "ok": 0, "gen": "CALL read_account(\"AC-4974\")"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 0, "offset": 1, "s": 1, "kind": "rate", "ok": 1, "gen": "CALL get_rate(\"B\")  \nCALL compute(1745.72, 0.05)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 1, "offset": 1, "s": 5, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 2, "offset": 1, "s": 9, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 3, "offset": 1, "s": 13, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"A\")"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 4, "offset": 1, "s": 17, "kind": "rate", "ok": 0, "gen": "CALL get_rate(\"B\")"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 0, "offset": 2, "s": 2, "kind": "compute", "ok": 1, "gen": "CALL compute(1745.72, 0.032)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 1, "offset": 2, "s": 6, "kind": "compute", "ok": 0, "gen": "CALL compute(810.89, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 2, "offset": 2, "s": 10, "kind": "compute", "ok": 0, "gen": "CALL compute(539.59, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 3, "offset": 2, "s": 14, "kind": "compute", "ok": 0, "gen": "CALL compute(606.79, 0.021)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 4, "offset": 2, "s": 18, "kind": "compute", "ok": 0, "gen": "CALL compute(482.11, 0.014)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 0, "offset": 3, "s": 3, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-4974\", 55.86)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 1, "offset": 3, "s": 7, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-7651\", 111.72)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 2, "offset": 3, "s": 11, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-6630\", 75.54)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 3, "offset": 3, "s": 15, "kind": "submit", "ok": 0, "gen": "CALL submit(\"AC-1347\", 114.43)"}
+{"model": "qwen-1.5b", "seed": 10039, "k": 4, "offset": 3, "s": 19, "kind": "submit", "ok": 1, "gen": "CALL submit(\"AC-1786\", 67.5)"}
