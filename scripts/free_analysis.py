@@ -12,10 +12,10 @@ import sys
 
 import numpy as np
 
-rng = np.random.default_rng(0)
-
-
 def boot(vals, n=4000):
+    """Each cell gets its own fixed seed, so an interval does not depend on
+    which files were analysed before it."""
+    rng = np.random.default_rng(0)
     v = np.asarray(vals, float)
     if not len(v):
         return float("nan"), float("nan"), float("nan")

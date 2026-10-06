@@ -36,6 +36,23 @@ for r in rows:
 if cur:
     segs.append(cur[: len(cur) - low if low else len(cur)])
 
+# The paper's per-run figures. Back-to-back runs with a model load under 20 s
+# between them merge into one segment above, so each run is cut at the write
+# time of its result file instead (2026-09-06, local time).
+PAPER_RUNS = [
+    ("smol3-3b", "17:47:19", "18:09:45"),
+    ("gemma-4-e2b", "22:07:58", "22:38:00"),
+    ("qwen2.5-1.5b", "22:38:20", "22:49:00"),
+]
+print(f"{'run':>14} {'min':>6} {'mean W':>7} {'Wh':>7} {'J/point':>8}")
+for name, a, b in PAPER_RUNS:
+    s = [r for r in rows if a <= r[0].strftime("%H:%M:%S") <= b]
+    dur = (s[-1][0] - s[0][0]).total_seconds()
+    p = np.array([x[1] for x in s])
+    joules = float(np.trapezoid(p, dx=dur / max(len(p) - 1, 1)))
+    print(f"{name:>14} {dur/60:>6.1f} {p.mean():>7.1f} {joules/3600:>7.2f} {joules/7680:>8.2f}")
+print()
+
 print(f"{'segment':>7} {'start':>9} {'min':>6} {'mean W':>7} {'peak mem MB':>12} "
       f"{'Wh':>7} {'J/point (7680)':>15}")
 for i, s in enumerate(segs):

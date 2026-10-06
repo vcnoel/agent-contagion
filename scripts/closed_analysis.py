@@ -6,10 +6,10 @@ import sys
 
 import numpy as np
 
-rng = np.random.default_rng(0)
-
-
 def boot(vals, n=4000):
+    """Each interval gets its own fixed seed, so it does not depend on which
+    files or arms were analysed before it."""
+    rng = np.random.default_rng(0)
     v = np.asarray(vals, float)
     draws = np.array([rng.choice(v, size=len(v), replace=True).mean()
                       for _ in range(n)])

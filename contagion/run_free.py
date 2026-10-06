@@ -92,10 +92,9 @@ def should_escalate(policy, i, horizon, budget, conf, threshold, rng,
         return i % 4 == 0
     if policy == "dispatch_submit":
         return i % 4 in (0, 3)
-    # Matched: protect the step kind that THIS driver's R0 decomposition names
-    # as its superspreader, rather than assuming it is the dispatch. The kind
-    # is measured on the teacher forced run and passed in, so the policy is a
-    # prediction from one experiment tested in another.
+    # Matched: protect the positions of one step kind, passed in by name. These
+    # positions equal the kind only while the driver stays in step with the
+    # canonical cycle.
     if policy == "matched":
         return i % 4 == target_idx
     raise ValueError(policy)

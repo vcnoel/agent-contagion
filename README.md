@@ -15,25 +15,46 @@ additional failures one failure at step `t` causes.
 
 ## Findings, in brief
 
-- **Contagion does not track competence.** Across nine instruction-tuned
-  models from five families (0.36B-3.2B), clean per-step accuracy spans
-  0.648-1.000 while lambda sits at 0.069 +/- 0.016; the correlation is
-  -0.006. A placebo (same step, semantics-preserving rewrite) is null.
-- **The payload lands on the structurally analogous step** (same-role to
-  different-role ratios 4x-77x), survives filler-step jitter and period
-  changes, and grows with repeated demonstrations of one wrong rule but not
-  with an equal number of different wrong rules: rule induction, not a
-  corrupted context.
-- **Detection is not mitigation.** Flagging the error in its tool result
-  changes nothing downstream; visible correction and in-place redaction each
-  leave damage of their own.
-- **Escalation has a where.** At equal budget, no placement policy transfers
-  across model pairs, but the step kind carrying a driver's R0 under teacher
-  forcing predicts which single kind is worth protecting in free-running
-  rollouts.
+- **Contagion across competence.** Across nine instruction-tuned models from
+  five families (0.36B to 3.2B), clean per-step accuracy spans 0.648 to
+  1.000 while the unconditional lambda sits at 0.069 (standard deviation
+  0.016 across models), with a correlation of -0.006. A placebo that rewrites
+  the same step without changing its meaning is null for seven of the nine.
+  An estimator restricted to steps a model gets right when clean correlates
+  with clean accuracy at -0.66, so on steps they can do, more competent
+  models are less susceptible. Past 3.2B lambda falls with scale in the three
+  families extended upward, and across newer generations in two of three.
+- **Structural role.** The effect concentrates on later steps with the same
+  structural role as the corrupted one (same-role to different-role ratios of
+  4x to 77x), follows that role under filler-step jitter and period changes,
+  and grows with repetitions of one wrong rule more than with as many
+  different wrong rules, which the paper reads as in-context rule induction.
+- **Mitigation.** Flagging the error in its tool result leaves same-role
+  contagion unchanged. An immediate visible correction cuts it by 29 to 41
+  percent. Replacing the step with a call-shaped redaction placeholder
+  removes the error, and most same-role failures in that arm copy the
+  placeholder verbatim (52 to 79 percent), so the marker is itself imitated.
+- **Escalation.** At equal budget no placement policy transfers across model
+  pairs. The best single step kind to protect, identified after the fact,
+  differs by pair: the dispatch with a 1.5B rescuer, rate with a 3B rescuer
+  of the same driver, the submission on the Qwen3.5 pair. The drivers' own
+  teacher-forced decompositions (`scripts/driver_r0.py`) rank the dispatch
+  first for both drivers, so they name the best kind on one pair of three,
+  and per-step clean error names it on two.
 
-The paper is under double-blind review; it will be linked here on
-acceptance.
+Valentin Noël. *An Error in the Context Is a Demonstration.* SLM-Agents:
+1st Workshop on Small Language Models for Agentic Systems, NeurIPS 2026
+(poster).
+
+```bibtex
+@inproceedings{noel2026error,
+  title     = {An Error in the Context Is a Demonstration},
+  author    = {No{\"e}l, Valentin},
+  booktitle = {SLM-Agents: 1st Workshop on Small Language Models for Agentic
+               Systems, NeurIPS},
+  year      = {2026}
+}
+```
 
 ## Layout
 
@@ -65,19 +86,25 @@ Recompute any reported number from the shipped record, no GPU needed:
     python -m contagion.analyze results/forced_qwen-1.5b.jsonl
     python scripts/summary.py            # cross-model table
     python scripts/jitter_analysis.py results/jitter_*.jsonl
-    python scripts/dose_curve.py         # rule-induction dose response
+    python scripts/dose_curve.py "results/dose3c_*.jsonl"  # one rule repeated
+    python scripts/dose_curve.py "results/dose2_*.jsonl"   # k different rules
     python scripts/mitigate_analysis.py  # flag / retry / redact arms
-    python scripts/free_analysis.py      # escalation at equal budget
+    python scripts/free_analysis.py      # escalation policies at equal budget
+    python scripts/free_analysis.py "results/matched_*.jsonl"  # one step kind protected
+    python scripts/driver_r0.py results/forced_qwen-0.5b.jsonl \
+        results/forced_qwen3.5-0.8b.jsonl  # escalation drivers' decompositions
+    python scripts/energy.py results/power_log.csv  # GPU energy per run
     python scripts/make_figures.py       # paper figures
 
 Tasks are seeded and conditions are deterministic given the seed, so
 `results/*.jsonl` regenerate byte-comparably on the same hardware and
 versions.
 
-## Preregistration
+## Predictions
 
-Predictions were registered before their data existed and are reported
-whether they held or failed. `PREREGISTRATION_2.md` registers the
-out-of-sample generation predictions (P5a-P5f); `FREEZE_2.txt` holds its
-SHA-256 at registration time together with a manifest of every result file
-then on disk.
+Every prediction is reported beside its outcome, whether it held or failed.
+The first four (P1-P4) were written in the repository during the study and
+carry no timestamp that predates the data. `PREREGISTRATION_2.md` registers
+the out-of-sample generation predictions (P5a-P5f) before their runs, and
+`FREEZE_2.txt` holds its SHA-256 at registration time together with a
+manifest of every result file then on disk.

@@ -1,20 +1,19 @@
 """Does anything short of deleting the bad step actually help?
 
-Every arm contains the *same* injected error at step t. They differ only in what
-the context looks like afterwards:
+The err, flag and retry arms contain the same injected error at step t and
+differ in what the context looks like afterwards. The redact arm contains no
+error at all:
 
   err      the wrong action stands, and the rest of its subtask propagates it
-  flag     the wrong action stands, but its tool result carries an explicit
-           error marker -- the "detect and warn" guardrail
+  flag     as err, but the tool result carries an explicit error marker
+           (the "detect and warn" guardrail)
   retry    the wrong action stands and is immediately followed by the correct
-           action and result, and the subtask proceeds correctly -- the agent
-           visibly corrected itself, which is what a retry loop produces
-  redact   the wrong action is replaced in place by a neutral placeholder, and
-           the subtask proceeds correctly -- context compaction
+           action and result, then the subtask proceeds correctly. Built from
+           the clean prefix, so it lacks err's propagated dependent steps, and
+           it is one step longer than the other arms.
+  redact   the clean prefix with step t replaced by a call-shaped placeholder
+           (context compaction). Measures the cost of the edit itself.
   clean    no error at all (the paired baseline)
-
-If `flag` and `retry` sit near `err` while `redact` sits near `clean`, then
-catching the error is not the intervention that matters; removing it is.
 """
 from __future__ import annotations
 
